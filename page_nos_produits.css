@@ -1,0 +1,41 @@
+* {
+  background-color: #f9f0f6;
+  color: #a33b53;
+  align-items: center;
+  margin: 15px 10px 5px 5px;
+}
+h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-family: "Playfair display";
+  font-size: 58px;
+}
+p {
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 32px;
+}
+img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.produits {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

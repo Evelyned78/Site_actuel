@@ -1,3 +1,107 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "playfair display";
   background-color: #f9f0f6;
+}
+body {
+  background-color: f9f0f6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: relative;
+  background-color: #f9f0f6;
+  height: 110px;
+}
+h1 {
+  color: #a33b53;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding: 40px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 200px;
+  font-size: 54px;
+  line-height: 100px;
+  color: #a33b53;
+}
+.container-burger-menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container-burger-menu svg {
+  width: 35px;
+  height: 35px;
+}
+.logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.logo .img-logo {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  height: 100%;
+}
+.menu ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  color: #a33b53;
+}
+.menu ul li a svg {
+  width: 40px;
+  height: 40px;
+}
+.menu ul li button {
+  color: #f9f0f6;
+  border: none;
+  outline: none;
+  background-color: #a33b53;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+main {
+  height: 100vh;
+}
+
+.home {
+  background-image: url(/home/etapweb/Téléchargements/imagea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.home > * {
+  background: none;
+}
+p {
+  color: #a33b53;
 }

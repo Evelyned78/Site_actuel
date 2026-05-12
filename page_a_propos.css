@@ -1,0 +1,32 @@
+* {
+  background-color: #f9f0f6;
+}
+h2 {
+  align-items: center;
+  position: relative;
+  color: #a33b53;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 96px;
+}
+p {
+  position: absolute;
+  height: 1844px;
+  left: 103px;
+  top: 236px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: left;
+  color: #a33b53;
+}
+.image {
+  position: absolute;
+  width: 1591px;
+  height: 1590px;
+  left: 1877px;
+  top: 0px;
+  background: url("AZ1EANlU9s-dGWPcyWIm_Q-AZ1EANlU_f1WrR3JhDUcwQ.png");
+}
