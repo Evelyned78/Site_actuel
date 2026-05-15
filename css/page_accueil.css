@@ -94,7 +94,7 @@ main {
 }
 
 .home {
-  background-image: url(/home/etapweb/Téléchargements/imagea.png);
+  background-image: url(../assets/images/imagea.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
