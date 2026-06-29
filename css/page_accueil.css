@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "playfair display";
-  background-color: #f9f0f6;
 }
 body {
   background-color: f9f0f6;
@@ -103,5 +102,8 @@ main {
   background: none;
 }
 p {
+  color: #a33b53;
+}
+h4 {
   color: #a33b53;
 }
