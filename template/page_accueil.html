@@ -3,24 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rhibelya</title>
+    <title>Accueil</title>
     <link
       rel="shortcut icon"
       href="/home/etapweb/Téléchargements/Rhibelya.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../css/page_accueil.css" />
+  <!--ça aussi--><link rel="stylesheet" href="../css/menu.css"><!--ça aussi-->
   </head>
   <body>
     <header>
+      <!-- de la -->
       <div class="container-burger-menu">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
+        <button class="btn btn-menu" id="btn-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
             fill="#a33b53"
             d="M2 6a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1m0 6.032a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1m1 5.033a1 1 0 1 0 0 2h18a1 1 0 0 0 0-2z"
-          />
-        </svg>
+            />
+          </svg>
+        </button>
       </div>
+
+      <nav id="liste" class="liste">
+        <div class="container-cross-menu">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="24" height="24"></rect> <g> <path d="M18.36 19.78L12 13.41l-6.36 6.37-1.42-1.42L10.59 12 4.22 5.64l1.42-1.42L12 10.59l6.36-6.36 1.41 1.41L13.41 12l6.36 6.36z"></path> </g> </g></svg>
+        </div>
+        <div class="container-link-menu">
+          <a href="/template/page_accueil.html" class="big-text rose" id="accueil">Accueil</a>
+          <a href="/template/page_nos_produits.html" class="big-text rose" id="produits">Nos produits</a>
+          <a href="/template/page_gommage.html" class="big-text rose" id="gommage">Gommage</a>
+          <a href="/template/page_huile.html" class="big-text rose" id="huile">Huile</a>
+          <a href="/template/page_creme.html" class="big-text rose" id="creme">Creme</a>
+        </div>
+      </nav>
+
+
+      <!--a la-->
       <div class="logo">
         <img src="../assets/images/Rhibelya.svg" alt="logo" class="img-logo" />
       </div>
@@ -90,6 +110,29 @@
         </p>
         <button><a href="#">Découvrir nos produits</a></button>
       </section>
+
+      <section class="apropos" id=""apropos">
+       <h2>L'histoire de Rhibelya</h2>
+      <p>
+        Rhibelya est une maison de soins haute gamme dédiée à la beauté
+        naturelle et à l’élégance intemporelle. Inspirée par la puissance
+        botanique de l’hibiscus, chaque création incarne l’allaince entre la
+        science cosmétique et les trésors de la nature. Née d’une vison raffinée
+        et du bien être, Rhibelya célébre la peau dans toute splendeur. Ses
+        formules, riches en extrait d’hibiscus, sont reconnues pour leurs vertus
+        antioxydantes et regénérantes, offrant une expérience sensorielle unique
+        et des résultats visibles. Chaque produit est conçu avec soin, dans le
+        respect des standarts les plus élevés de la cosmétique naturelle. Elle
+        incarne un art de vivre: celui d’une beauté consciente, élégante et
+        durable. Plus qu’une routine, c’est un rituel de soin qui sublime et
+        révèle l’éclat intérieur. Offrez à vos sens une expérience unique où la
+        nature révéle toute sa noblesse.
+      </p>
+      </section>
+
+      <div class="image">
+        <img src="../assets/images/imageapropos.jpg" />
+      </div>
     </main>
     <footer>
       <nav aria-label="Liens légaux">

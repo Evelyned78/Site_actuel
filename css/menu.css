@@ -1,0 +1,71 @@
+.btn-menu {
+  background: none;
+  border: none;
+}
+
+header {
+  position: relative;
+}
+
+.liste {
+  background-color: #a33b53;
+
+  width: 25%;
+  height: 100vh;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-cross-menu {
+  width: 36px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.container-cross-menu svg {
+  fill: white;
+}
+
+.container-link-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 75%;
+}
+
+.liste a {
+  color: white;
+  font-size: 28px;
+}
+
+.slide-right {
+  -webkit-animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}

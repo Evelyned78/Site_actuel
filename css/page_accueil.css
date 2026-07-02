@@ -33,7 +33,7 @@ h1 {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .container-burger-menu svg {
   width: 35px;
